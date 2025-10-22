@@ -15,37 +15,12 @@ The application follows a modular structure to separate concerns:PrivateChef/
     ├── MenuItemCard.tsx    # Reusable component for displaying a menu item
     └── styles.ts           # Centralized styling, colors, and global constants
 
-Changelog:
-This log details the major changes and updates made to the PrivateChef Menu Management App.
+Reference List:
+Bing (n.d.) Search result for 'japanese cuisine', Available at: [suspicious link removed]... (Accessed: 20 October 2025).
 
-v1.0.1 - Bugfixes and Final Cleanup
-FIXED: Resolved critical module resolution errors (U and red squiggle indicators) across the entire project by correcting all relative import paths in App.tsx, index.ts, and all files inside the screens/ directory (e.g., changing ./interfaces to ../interfaces).
+npmjs.com (n.d.) react-native-screens, Available at: https://www.npmjs.com/package/react-native-screens?activeTab=code (Accessed: 20 October 2025).
 
-FIXED: Corrected a critical syntax error in MenuItemCard.tsx where the functional component props destructuring used incorrect double parentheses ((( ... ))).
+React Native (n.d.) React Native Documentation, Available at: https://reactnative.dev/ (Accessed: 20 October 2025).
 
-FIXED: Corrected a typo in App.tsx importing the screen as GustViewScreen instead of GuestViewScreen.
-
-FIXED: Ensured all necessary components (Text, TouchableOpacity) are correctly imported from react-native where they are used (e.g., in the renderScreen block of App.tsx).
-
-v1.0.0 - Initial Release & Core Functionality
-NEW: Implemented the core modular architecture with separate interfaces.ts and a dedicated screens/ folder.
-
-NEW: Created the Chef's View (Home Screen).
-
-Displays menu list with prices, edit, and delete buttons.
-
-Includes a summary of total items and average price.
-
-NEW: Developed the Add/Edit Menu Item Screen.
-
-Form handles Dish Name, Description, Price, and Course selection (Starters/Mains/Desserts).
-
-NEW: Created the Guest View with Filter Screen.
-
-Menu is filterable by course.
-
-Prices are hidden for customer view.
-
-NEW: Established simple, state-based navigation logic within App.tsx to switch between ChefHome, MenuForm, and GuestView.
 
 NEW: Defined initial menu data with sample items.
