@@ -16,11 +16,6 @@ The application follows a modular structure to separate concerns:PrivateChef/
     └── styles.ts           # Centralized styling, colors, and global constants
 
 Reference List:
-Bing (n.d.) Search result for 'japanese cuisine', Available at: [suspicious link removed]... (Accessed: 20 October 2025).
-
-npmjs.com (n.d.) react-native-screens, Available at: https://www.npmjs.com/package/react-native-screens?activeTab=code (Accessed: 20 October 2025).
-
-React Native (n.d.) React Native Documentation, Available at: https://reactnative.dev/ (Accessed: 20 October 2025).
-
-
-NEW: Defined initial menu data with sample items.
+Software Mansion (2025) react-native-screens. Available at: https://www.npmjs.com/package/react-native-screens?activeTab=code (Accessed: 20 October 2025).
+React Native (2025) React Native. Available at: https://reactnative.dev/ (Accessed: 20 October 2025).
+Wikipedia (2025) Japanese cuisine. Available at: https://en.wikipedia.org/wiki/Japanese_cuisine (Accessed: 20 October 2025).
